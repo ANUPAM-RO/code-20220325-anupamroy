@@ -3,7 +3,7 @@ import Navber from "../navber/Navber";
 import "./home.css";
 const Home = () => {
   return (
-    <div className="home">
+    <div className="home" id="home">
       <Navber />
       <div className="main">
         <span className="text">Rethink your living & renting</span>

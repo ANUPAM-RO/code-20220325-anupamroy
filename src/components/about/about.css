@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;700&display=swap");
 .about {
-  margin: 4rem;
+  margin: 1rem;
 }
 .card2 {
   display: flex;
@@ -15,4 +15,10 @@
 .about h1 {
   font-family: "Exo 2";
   font-weight: 700;
+}
+@media only screen and (max-width: 600px) {
+  .card2 {
+    flex-direction: column;
+    gap: 4rem;
+  }
 }

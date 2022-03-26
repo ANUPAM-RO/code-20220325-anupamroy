@@ -1,6 +1,5 @@
 .cartImg {
   height: 300px;
-  width: 500px;
 }
 .Cart-main {
   position: relative;
@@ -9,7 +8,6 @@
   display: flex;
   position: absolute;
   height: 60px;
-  width: 400px;
   bottom: -30px;
   left: 40px;
   justify-content: space-between;
@@ -52,4 +50,12 @@
   font-weight: bold;
   background: linear-gradient(90deg, #ff594c 0%, #fac527 100%);
   border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .cartImg {
+    height: 200px;
+  }
+  /* .flex {
+    width: 300px;
+  } */
 }

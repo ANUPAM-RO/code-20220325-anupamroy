@@ -1,4 +1,4 @@
-.Cart2-main {
+.Card2-main {
   position: relative;
 }
 .card-capture {
@@ -17,10 +17,18 @@
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
-.cart2-value {
+.card2-value {
   font-size: 20px;
   font-weight: bold;
 }
 .card2-text {
   padding-bottom: 5px;
+}
+@media only screen and (max-width: 600px) {
+  .card2-image {
+    width: 350px;
+  }
+  .card-capture {
+    width: 220px;
+  }
 }
