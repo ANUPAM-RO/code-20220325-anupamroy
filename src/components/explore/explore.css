@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;700&display=swap");
+.explore {
+  margin: 2rem;
+}
+.cart {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+.explore h1 {
+  font-family: "Exo 2";
+  font-weight: 700;
+}

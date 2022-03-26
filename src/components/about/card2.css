@@ -1,0 +1,26 @@
+.Cart2-main {
+  position: relative;
+}
+.card-capture {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  width: 320px;
+  bottom: -40px;
+  left: 40px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 22px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.cart2-value {
+  font-size: 20px;
+  font-weight: bold;
+}
+.card2-text {
+  padding-bottom: 5px;
+}
