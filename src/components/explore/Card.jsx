@@ -1,6 +1,6 @@
 import React from "react";
 import "./card.css";
-const Cart = ({ image, value, size, text }) => {
+const Card = ({ image, value, size, text }) => {
   return (
     <div className="Cart-main">
       <img src={image} alt="" className="cartImg"/>
@@ -20,4 +20,4 @@ const Cart = ({ image, value, size, text }) => {
   );
 };
 
-export default Cart;
+export default Card;
