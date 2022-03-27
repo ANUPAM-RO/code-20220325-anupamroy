@@ -4,6 +4,6 @@ import Footer from "../components/footer/Footer";
 
 
 it("renders without crashing", () => {
-    const div = document.createElement("div");
-    ReactDOM.render(<Footer></Footer>, div)
+    const footer = document.createElement("footer");
+    ReactDOM.render(<Footer></Footer>, footer)
 })
